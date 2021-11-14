@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home  {
+  background-image: url(./images/home.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:84vh;
+  align-items: center;
+  padding-left:20px;
+  font-size: 30px;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  color:black;
+  width:100%;
+  
+}
+.about {
+  background-image: url(./images/abt.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  font-size: 28px;
+  width:100%;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  color:black;
+  padding-left:40px;
+  padding-right: 40px;
+  
+}
+
+
